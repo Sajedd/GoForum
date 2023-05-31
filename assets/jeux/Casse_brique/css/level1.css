@@ -1,0 +1,12 @@
+body {
+  background: linear-gradient(to right, #8F3628, rgb(78, 77, 77));
+}
+
+h1 {
+  color: white;
+  
+}
+
+.levelActuel {
+  color: #B86A3E;
+}

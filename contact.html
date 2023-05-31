@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="icon" src="./assets/images/Goforum-Or.png" alt="icon" />
+      <ul class="navbar">
+        <li class="nav-item"><a href="./index.html">Acceuil</a></li>
+        <li class="nav-item"><a href="./blog.html">Y'blog</a></li>
+        <li class="nav-item">
+          <a href="./testForum.html">Acceder au Forum</a>
+        </li>
+        <li class="nav-item"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="top-content">
+        <img src="./assets/images/ynov.jpg" alt="acceuil ynov" />
+        <p>
+          Si vous souhaitez nous contacter, n'hésitez pas à remplir le
+          formulaire ci-dessous avec votre nom, votre adresse e-mail et votre
+          message. Nous vous répondrons dans les plus brefs délais.
+        </p>
+      </div>
+      <div class="contact-container">
+        <div class="form-container">
+          <h2>Contactez-nous</h2>
+          <form action="#" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="subject">Sujet :</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h2>Nos coordonnées</h2>
+          <p>Adresse : 12 Rue anatole France 92290</p>
+          <p>Téléphone : 01 23 45 67 89</p>
+          <p>Email : B1.Info@ynov.com</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <form>
+        <h2>Nous contacter</h2>
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+      </form>
+      <div class="links">
+        <h2>Autre</h2>
+        <ul>
+          <li><a href="./cv.html">Retrouvez nos Cv</a></li>
+          <li>
+            <a href="./github.html">All Repositories Github</a>
+          </li>
+          <li>
+            <a href="https://www.ynov.com/campus/paris/"
+              >&copy; 2023 Paris Ynov Campus</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
