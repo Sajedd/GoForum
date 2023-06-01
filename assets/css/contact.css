@@ -63,7 +63,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-img {
+.acceuilYnov {
   display: block;
   width: 70%;
   height: auto;
@@ -225,7 +225,10 @@ form button[type="submit"] {
 .links ul li a:hover {
   text-decoration: underline;
 }
-
+.miniIcon {
+  width: 17px;
+  margin-right: 10px;
+}
 /*Media queries pour telephones*/
 @media screen and (max-width: 760px) {
   body {

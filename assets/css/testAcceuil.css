@@ -150,3 +150,7 @@ footer {
   .links ul li a:hover {
     text-decoration: underline;
   }
+  .miniIcon {
+    width: 17px;
+    margin-right: 10px;
+  }
