@@ -54,6 +54,7 @@ a {
 }
 
 .top-content p {
+  margin-top: 2rem;
   color: black;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -63,6 +64,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+/* slide image */
 .acceuilYnov {
   display: block;
   width: 70%;
@@ -71,6 +73,19 @@ a {
   margin: 0 auto;
   border-radius: 5%;
 }
+
+#slideshow {
+  width: 750px;
+  height: 450px; 
+  overflow: hidden;
+}
+
+#slideshow img {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+/*fin slide*/
 
 p {
   font-size: 18px;
