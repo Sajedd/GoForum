@@ -42,12 +42,11 @@ nav ul li a {
 }
 
 section#heroSection {
-    background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
     padding: 100px 0;
-    color: #fff;
+    color: goldenrod;
 }
 
 section#heroSection h2 {
